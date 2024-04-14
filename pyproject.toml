@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "nd608-ai-photo-editing-with-inpainting"
+version = "0.1.0"
+description = ""
+authors = ["Agustin Barto <abarto@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+jupyter = "^1.0.0"
+transformers = "^4.39.3"
+diffusers = "^0.27.2"
+requests = "^2.31.0"
+pillow = "^10.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
